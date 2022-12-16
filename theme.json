@@ -6,7 +6,7 @@
       "palette": [
         {
           "slug": "ti-bg",
-          "color": "#191919",
+          "color": "#161616",
           "name": "Background"
         },
         {
@@ -200,7 +200,7 @@
     },
     "layout": {
       "contentSize": "740px",
-      "wideSize": "1140px"
+      "wideSize": "960px"
     },
     "border": {
       "color": true,

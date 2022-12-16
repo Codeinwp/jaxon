@@ -7,7 +7,7 @@
         "palette": [
           {
             "slug": "ti-bg",
-            "color": "#fefaf1",
+            "color": "#F4F4F6",
             "name": "Background"
           },
           {
@@ -32,7 +32,7 @@
           },
           {
             "slug": "ti-accent",
-            "color": "#F94E41",
+            "color": "#00574E",
             "name": "Accent"
           }
         ]

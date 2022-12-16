@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-TODO: Description.
+Jaxon is a contemporary, minimalistic theme that fully supports full-site-editing. Its versatility makes it suitable for a variety of purposes such as blogs, small businesses, startups, agencies, firms, e-commerce shops, personal portfolio sites, and more. It includes a selection of design patterns and multiple style options. 
 
 == Copyright ==
 Jaxon WordPress theme, Copyright 2022 Themeisle

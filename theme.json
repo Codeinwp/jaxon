@@ -16,7 +16,7 @@
         },
         {
           "slug": "ti-bg-alt",
-          "color": "rgba(255, 255, 255, 0.8)",
+          "color": "rgba(255, 255, 255, 0.08)",
           "name": "Background Alt"
         },
         {
@@ -200,7 +200,7 @@
     },
     "layout": {
       "contentSize": "740px",
-      "wideSize": "960px"
+      "wideSize": "1140px"
     },
     "border": {
       "color": true,

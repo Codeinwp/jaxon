@@ -7,22 +7,22 @@
         "palette": [
             {
               "slug": "ti-bg",
-              "color": "#FAFFFD",
+              "color": "#000000",
               "name": "Background"
             },
             {
               "slug": "ti-fg",
-              "color": "#333333",
+              "color": "#F4F4F4",
               "name": "Foreground"
             },
             {
               "slug": "ti-bg-alt",
-              "color": "#FFFFFF",
+              "color": "rgba(255, 255, 255, 0.05)",
               "name": "Background Alt"
             },
             {
               "slug": "ti-bg-inv",
-              "color": "#003083",
+              "color": "#111111",
               "name": "Background Dark"
             },
             {

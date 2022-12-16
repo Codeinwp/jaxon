@@ -6,32 +6,32 @@
       "palette": [
         {
           "slug": "ti-bg",
-          "color": "#EBE8E6",
+          "color": "#191919",
           "name": "Background"
         },
         {
           "slug": "ti-fg",
-          "color": "#1D1F25",
+          "color": "#F4F4F4",
           "name": "Foreground"
         },
         {
           "slug": "ti-bg-alt",
-          "color": "rgba(255, 255, 255, 0.6)",
+          "color": "rgba(255, 255, 255, 0.8)",
           "name": "Background Alt"
         },
         {
           "slug": "ti-bg-inv",
-          "color": "#1A1919",
+          "color": "#111111",
           "name": "Background Dark"
         },
         {
           "slug": "ti-fg-alt",
-          "color": "#FDFDFD",
+          "color": "#FBFBFB",
           "name": "Foreground Alt"
         },
         {
           "slug": "ti-accent",
-          "color": "#bada55",
+          "color": "#F94E41",
           "name": "Accent"
         }
       ],

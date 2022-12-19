@@ -31,7 +31,20 @@ class Block_Patterns {
 	 *
 	 * @var array
 	 */
-	private $patterns = array();
+	private $patterns = array(
+		'hero-cover-with-title-and-image',
+		'row-with-logos',
+		'call-to-action-inverted',
+		'categories-with-description-and-images',
+		'two-columns-with-images-and-text',
+		'features-with-icons',
+		'three-columns-with-testimonials',
+		'posts-in-a-three-column-grid',
+		'two-columns-with-testimonials',
+		'alternating-layout-with-image-and-description',
+		'call-to-action-boxed',
+		'three-columns-with-products',
+	);
 
 	/**
 	 * Block_Patterns constructor.

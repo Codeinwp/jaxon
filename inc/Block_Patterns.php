@@ -31,20 +31,7 @@ class Block_Patterns {
 	 *
 	 * @var array
 	 */
-	private $patterns = array(
-		'hero-cover-with-title-and-image',
-		'row-with-logos',
-		'call-to-action-inverted',
-		'categories-with-description-and-images',
-		'two-columns-with-images-and-text',
-		'features-with-icons',
-		'three-columns-with-testimonials',
-		'posts-in-a-three-column-grid',
-		'two-columns-with-testimonials',
-		'alternating-layout-with-image-and-description',
-		'call-to-action-boxed',
-		'three-columns-with-products',
-	);
+	private $patterns = array();
 
 	/**
 	 * Block_Patterns constructor.
@@ -72,10 +59,23 @@ class Block_Patterns {
 	 */
 	private function setup_properties() {
 		$categories = array(
-			'jaxon' => array( 'label' => __( 'Raft Patterns', 'jaxon' ) ),
+			'jaxon' => array( 'label' => __( 'Jaxon Patterns', 'jaxon' ) ),
 		);
 
-		$patterns = array();
+		$patterns = array(
+			'hero-cover-with-title-and-image',
+			'row-with-logos',
+			'call-to-action-inverted',
+			'categories-with-description-and-images',
+			'two-columns-with-images-and-text',
+			'features-with-icons',
+			'three-columns-with-testimonials',
+			'posts-in-a-three-column-grid',
+			'two-columns-with-testimonials',
+			'alternating-layout-with-image-and-description',
+			'call-to-action-boxed',
+			'three-columns-with-products',
+		);
 
 		$this->categories = apply_filters( 'jaxon_block_patterns_categories', $categories );
 		$this->patterns   = apply_filters( 'jaxon_block_patterns', $patterns );

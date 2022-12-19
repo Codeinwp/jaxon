@@ -17,7 +17,7 @@
           },
           {
             "slug": "ti-bg-alt",
-            "color": "#FFFFFF",
+            "color": "rgba(255, 255, 255, 0.05)",
             "name": "Background Alt"
           },
           {
@@ -27,7 +27,7 @@
           },
           {
             "slug": "ti-fg-alt",
-            "color": "#ffffff",
+            "color": "#F4F4F4",
             "name": "Foreground Alt"
           },
           {

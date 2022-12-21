@@ -23,7 +23,7 @@ return array(
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"ti-accent","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-ti-accent-background-color has-background wp-element-button">Shop NOW</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-ti-accent-background-color has-background wp-element-button">Shop Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

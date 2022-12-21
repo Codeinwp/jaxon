@@ -12,7 +12,6 @@
  * keywords: columns, grid, posts, query-loop
  */
 
-
 return array(
 	'title'      => __( 'Posts in a three column grid', 'jaxon' ),
 	'categories' => array( 'jaxon' ),

@@ -12,7 +12,6 @@
  * keywords: button, call-to-action, banner, inverted
  */
 
-
 return array(
 	'title'      => __( 'Call to action boxed', 'jaxon' ),
 	'categories' => array( 'jaxon' ),

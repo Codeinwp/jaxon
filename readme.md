@@ -23,9 +23,9 @@ All images are licensed under CC0.
 
 
 Themeisle Free Icons - https://themeisle.com/free-icons:
-* icon-1.png
-* icon-2.png
-* icon-4.png
+* icon-1.svg
+* icon-2.svg
+* icon-4.svg
 
 Images
 
@@ -50,10 +50,10 @@ Images
 Logos
 
 Logoipsum Free Logos - https://logoipsum.com/:
-* jaxon-placeholder-logo-01.1.png
-* jaxon-placeholder-logo-02.1.png
-* jaxon-placeholder-logo-03.1.png
-* jaxon-placeholder-logo-05.1.png
-* jaxon-placeholder-logo-04.1.png
+* jaxon-placeholder-logo-01.1.2.svg
+* jaxon-placeholder-logo-02.1.2.svg
+* jaxon-placeholder-logo-03.1.2.svg
+* jaxon-placeholder-logo-05.1.2.svg
+* jaxon-placeholder-logo-04.1.2.svg
 
 

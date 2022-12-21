@@ -12,9 +12,6 @@
  * keywords: button, call-to-action, banner, inverted
  */
 
-use Jaxon\Assets_Manager;
-
-
 
 return array(
 	'title'      => __( 'Call to action boxed', 'jaxon' ),

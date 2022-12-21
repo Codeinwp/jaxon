@@ -33,7 +33,7 @@ return array(
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"align":"center","id":264,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/jaxon-avatar-03.png" alt="" class="wp-image-264"/></figure>
+<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-03.png' ) ) . '" alt="" class="wp-image-264"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -47,7 +47,7 @@ return array(
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"align":"center","id":262,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/jaxon-avatar-01.png" alt="" class="wp-image-262"/></figure>
+<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-01.png' ) ) . '" alt="" class="wp-image-262"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -61,7 +61,7 @@ return array(
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"align":"center","id":263,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/jaxon-avatar-02.png" alt="" class="wp-image-263"/></figure>
+<figure class="wp-block-image aligncenter size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-02.png' ) ) . '" alt="" class="wp-image-263"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->

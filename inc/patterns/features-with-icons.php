@@ -14,8 +14,6 @@
 
 use Jaxon\Assets_Manager;
 
-
-
 return array(
 	'title'      => __( 'Features with icons', 'jaxon' ),
 	'categories' => array( 'jaxon' ),
@@ -25,7 +23,7 @@ return array(
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":412,"width":56,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/icon-3.png" alt="" class="wp-image-412" width="56" height="56"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( Assets_Manager::get_image_url( 'icon-3.svg' ) ) . '" alt="" class="wp-image-412" width="56" height="56"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -40,7 +38,7 @@ return array(
 
 <!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:image {"id":411,"width":57,"height":59,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/icon-2.png" alt="" class="wp-image-411" width="57" height="59"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( Assets_Manager::get_image_url( 'icon-2.svg' ) ) . '" alt="" class="wp-image-411" width="57" height="59"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
@@ -54,7 +52,7 @@ return array(
 
 <!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:image {"id":410,"width":44,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/icon-1.png" alt="" class="wp-image-410" width="44" height="56"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( Assets_Manager::get_image_url( 'icon-1.svg' ) ) . '" alt="" class="wp-image-410" width="44" height="56"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->

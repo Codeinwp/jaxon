@@ -12,9 +12,6 @@
  * keywords: columns, grid, posts, query-loop
  */
 
-use Jaxon\Assets_Manager;
-
-
 
 return array(
 	'title'      => __( 'Posts in a three column grid', 'jaxon' ),

@@ -48,7 +48,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":307,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/jaxon-col-section-2.png" alt="" class="wp-image-307"/></figure>
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-2.png' ) ) . '" alt="" class="wp-image-307"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -56,7 +56,7 @@ return array(
 <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"ti-bg-alt"} -->
 <div class="wp-block-columns alignwide has-ti-bg-alt-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":308,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://demosites.io/jaxon/wp-content/uploads/sites/674/2022/12/jaxon-col-section-1.png" alt="" class="wp-image-308"/></figure>
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-1.png' ) ) . '" alt="" class="wp-image-308"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

@@ -1,28 +1,32 @@
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
     <!-- wp:template-part {"slug":"header","theme":"jaxon","tagName":"header","align":"full"} /-->
 
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px","right":"0px","left":"0px"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"0px"}},"backgroundColor":"ti-bg-inv","layout":{"inherit":false}} -->
     <div class="wp-block-group alignfull has-ti-bg-inv-background-color has-background"
         style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
-        <!-- wp:cover {"dimRatio":80,"minHeight":200,"isDark":false,"style":{"spacing":{"padding":{"top":"64px","right":"0px","bottom":"64px","left":"0px"}}}} -->
+        <!-- wp:cover {"dimRatio":80,"minHeight":240,"isDark":false,"style":{"spacing":{"padding":{"top":"64px","right":"0px","bottom":"64px","left":"0px"}}}} -->
         <div class="wp-block-cover is-light"
-            style="padding-top:64px;padding-right:0px;padding-bottom:64px;padding-left:0px;min-height:200px"><span
+            style="padding-top:64px;padding-right:0px;padding-bottom:64px;padding-left:0px;min-height:240px"><span
                 aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim"></span>
             <div class="wp-block-cover__inner-container">
-                <!-- wp:query-title {"type":"archive","textAlign":"center","textColor":"ti-fg-alt"} /-->
+                <!-- wp:group {"textColor":"ti-fg-alt","layout":{"type":"constrained"}} -->
+                <div class="wp-block-group has-ti-fg-alt-color has-text-color">
+                    <!-- wp:query-title {"type":"archive","textAlign":"center"} /-->
+                </div>
+                <!-- /wp:group -->
             </div>
         </div>
         <!-- /wp:cover -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+    <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"}}},"layout":{"inherit":true,"type":"constrained"},"otterConditions":[]} -->
     <div class="wp-block-group alignfull" style="padding-top:64px;padding-bottom:64px">
         <!-- wp:query {"queryId":4,"query":{"perPage":"4","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"list","columns":2},"layout":{"inherit":true}} -->
         <div class="wp-block-query">
             <!-- wp:post-template -->
-            <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"ti-bg-alt","layout":{"inherit":true,"type":"constrained"}} -->
+            <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"ti-bg-alt","layout":{"inherit":true,"type":"constrained"},"otterConditions":[]} -->
             <div class="wp-block-group has-ti-bg-alt-background-color has-background"
                 style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
                 <!-- wp:post-title {"textAlign":"center","isLink":true,"fontSize":"x-large"} /-->
@@ -42,7 +46,7 @@
             <!-- /wp:spacer -->
             <!-- /wp:post-template -->
 
-            <!-- wp:group -->
+            <!-- wp:group {"otterConditions":[]} -->
             <div class="wp-block-group">
                 <!-- wp:query-pagination {"textColor":"ti-fg","layout":{"type":"flex","justifyContent":"space-between"}} -->
                 <!-- wp:query-pagination-previous /-->

@@ -242,9 +242,6 @@
       "link": {
         "color": {
           "text": "var(--wp--preset--color--ti-fg)"
-        },
-        "typography": {
-          "textDecoration": "none"
         }
       },
       "h1": {
@@ -331,18 +328,39 @@
       "core/comment-author-name": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--normal)"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/comment-date": {
         "typography": {
           "textTransform": "uppercase",
           "fontSize": "12px"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/comment-edit-link": {
         "typography": {
           "textTransform": "uppercase",
           "fontSize": "12px"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/comment-reply-link": {
@@ -352,7 +370,8 @@
         "elements": {
           "link": {
             "typography": {
-              "fontSize": "var(--wp--preset--font-size--small)"
+              "fontSize": "var(--wp--preset--font-size--small)",
+              "textDecoration": "none"
             },
             "color": {
               "text": "var(--wp--preset--color--ti-accent)"
@@ -360,9 +379,54 @@
           }
         }
       },
+      "core/navigation": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-terms": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-excerpt": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
       "core/search": {
         "border": {
           "radius": "5px"
+        }
+      },
+      "core/site-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/quote": {

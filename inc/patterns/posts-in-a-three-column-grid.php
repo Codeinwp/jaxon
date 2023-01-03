@@ -18,7 +18,7 @@ return array(
 	'content'    => '
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"blockGap":"40px","margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px"><!-- wp:heading {"align":"wide"} -->
-<h2 class="alignwide">Latest Posts</h2>
+<h2 class="alignwide">' . __( 'Latest Posts', 'jaxon' ) . '</h2>
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":6,"query":{"perPage":3,"pages":"3","offset":0,"postType":"post","order":"desc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"wide"} -->
@@ -32,7 +32,7 @@ return array(
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results.","backgroundColor":"ti-bg-alt"} -->
-<p class="has-ti-bg-alt-background-color has-background">No Posts were found</p>
+<p class="has-ti-bg-alt-background-color has-background">' . __( 'No Posts were found', 'jaxon' ) . '</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>

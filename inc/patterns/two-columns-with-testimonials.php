@@ -25,13 +25,13 @@ return array(
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading -->
-<h2>Selected client testimonials</h2>
+<h2>' . __( 'Selected client testimonials', 'jaxon' ) . '</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":264,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-03.png' ) ) . '" alt="" class="wp-image-264"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-03.png' ) ) . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
@@ -39,13 +39,13 @@ return array(
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="text-transform:uppercase"><strong>Client name</strong></p>
+<p class="has-small-font-size" style="text-transform:uppercase"><strong>John M.</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":263,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-02.png' ) ) . '" alt="" class="wp-image-263"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-avatar-02.png' ) ) . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
@@ -53,7 +53,7 @@ return array(
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="text-transform:uppercase"><strong>Client name</strong></p>
+<p class="has-small-font-size" style="text-transform:uppercase"><strong>Michael F.</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

@@ -28,7 +28,7 @@ return array(
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":1} -->
-<h1>Product Name</h1>
+<h1>' . __( 'Product Name', 'jaxon' ) . '</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -37,7 +37,7 @@ return array(
 
 <!-- wp:buttons {"fontSize":"normal"} -->
 <div class="wp-block-buttons has-custom-font-size has-normal-font-size"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Shop Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">' . __( 'Shop Now', 'jaxon' ) . '</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -47,16 +47,16 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":307,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-2.png' ) ) . '" alt="" class="wp-image-307"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-2.png' ) ) . '"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"ti-bg-alt"} -->
 <div class="wp-block-columns alignwide has-ti-bg-alt-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":308,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-1.png' ) ) . '" alt="" class="wp-image-308"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-col-section-1.png' ) ) . '"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -66,7 +66,7 @@ return array(
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":1} -->
-<h1>Product Name</h1>
+<h1>' . __( 'Product Name', 'jaxon' ) . '</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -75,7 +75,7 @@ return array(
 
 <!-- wp:buttons {"fontSize":"normal"} -->
 <div class="wp-block-buttons has-custom-font-size has-normal-font-size"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Shop Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">' . __( 'Shop Now', 'jaxon' ) . '</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

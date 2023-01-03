@@ -23,12 +23,12 @@ return array(
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"backgroundColor":"ti-bg-alt"} -->
-<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"id":424,"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '4.2.png' ) ) . '" alt="" class="wp-image-424"/></figure>
+<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '4.2.png' ) ) . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Product Name</h3>
+<h3>' . __( 'Product Name', 'jaxon' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -47,12 +47,12 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"backgroundColor":"ti-bg-alt"} -->
-<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"id":421,"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '5.2.png' ) ) . '" alt="" class="wp-image-421"/></figure>
+<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '5.2.png' ) ) . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Product Name</h3>
+<h3>' . __( 'Product Name', 'jaxon' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -71,12 +71,12 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"backgroundColor":"ti-bg-alt"} -->
-<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"id":422,"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '1.2.png' ) ) . '" alt="" class="wp-image-422"/></figure>
+<div class="wp-block-column has-ti-bg-alt-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"size-full"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( '1.2.png' ) ) . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Product Name</h3>
+<h3>' . __( 'Product Name', 'jaxon' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -89,7 +89,7 @@ return array(
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Buy Now</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">' . __( 'Buy Now', 'jaxon' ) . '</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

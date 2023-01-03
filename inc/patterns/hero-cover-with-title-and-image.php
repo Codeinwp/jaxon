@@ -27,7 +27,7 @@ return array(
     <!-- /wp:heading -->
     
     <!-- wp:heading {"level":1} -->
-    <h1>Heading About <br>My Shop</h1>
+    <h1>Lorem Ipsum <br>Dolor amet</h1>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph -->
@@ -47,8 +47,8 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":{"topLeft":"160px","topRight":"0px","bottomLeft":"0px","bottomRight":"160px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"ti-bg-alt","layout":{"type":"constrained"}} -->
-    <div class="wp-block-group has-ti-bg-alt-background-color has-background" style="border-top-left-radius:160px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:160px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"align":"center","id":389,"width":466,"height":675,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-    <figure class="wp-block-image aligncenter size-full is-resized is-style-default"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-main-image-9.png' ) ) . '" alt="" class="wp-image-389" width="466" height="675"/></figure>
+    <div class="wp-block-group has-ti-bg-alt-background-color has-background" style="border-top-left-radius:160px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:160px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"align":"center","width":466,"height":675,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
+    <figure class="wp-block-image aligncenter size-full is-resized is-style-default"><img src="' . esc_url( Assets_Manager::get_image_url( 'jaxon-main-image-9.png' ) ) . '" width="466" height="675"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column --></div>

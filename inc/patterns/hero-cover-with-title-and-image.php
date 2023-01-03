@@ -27,7 +27,7 @@ return array(
     <!-- /wp:heading -->
     
     <!-- wp:heading {"level":1} -->
-    <h1>Lorem Ipsum <br>Dolor amet</h1>
+    <h1>New Autumn <br>Collection</h1>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph -->

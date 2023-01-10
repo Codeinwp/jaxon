@@ -1,6 +1,7 @@
 {
   "version": 2,
   "settings": {
+    "useRootPaddingAwareAlignments": true,
     "appearanceTools": true,
     "color": {
       "palette": [
@@ -433,6 +434,14 @@
         "typography": {
           "fontSize": "var(--wp--preset--font-size--large)"
         }
+      }
+    },
+    "spacing": {
+      "padding": {
+        "top": "0",
+        "right": "var(--wp--preset--spacing--30)",
+        "bottom": "0",
+        "left": "var(--wp--preset--spacing--30)"
       }
     }
   },

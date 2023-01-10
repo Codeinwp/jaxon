@@ -16,3 +16,10 @@ Jaxon WordPress theme, Copyright 2022 Themeisle
 Jaxon is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
+
+####   Version 1.0.0 (2023-01-03)
+
+- Initial release
+
+
+

@@ -2,7 +2,7 @@
 **Contributors:** [themeisle](https://profiles.wordpress.org/themeisle/)  
 **Tags:** block-patterns  
 **Requires at least:** 5.5  
-**Tested up to:** 6.1  
+**Tested up to:** 6.3  
 **Stable tag:** trunk  
 **Requires PHP:** 7.0  
 **License:** GPLv2 or later  
@@ -37,6 +37,3 @@ Jaxon is distributed under the terms of the GNU GPLv2 or later
 ####   Version 1.0.0 (2023-01-03)
 
 - Initial release
-
-
-

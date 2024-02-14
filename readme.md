@@ -17,6 +17,15 @@ Jaxon is distributed under the terms of the GNU GPLv2 or later
 
 ## Changelog ##
 
+##### [Version 1.0.3](https://github.com/Codeinwp/jaxon/compare/v1.0.2...v1.0.3) (2024-02-14)
+
+### Improvements
+
+- **WordPress compatibility check**: Tested with the latest WordPress version for compatibility.
+
+
+
+
 ##### [Version 1.0.2](https://github.com/Codeinwp/jaxon/compare/v1.0.1...v1.0.2) (2023-06-06)
 
 - Improvement to Footer in Dark Version

@@ -17,6 +17,15 @@ Jaxon is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
 
+##### [Version 1.0.5](https://github.com/Codeinwp/jaxon/compare/v1.0.4...v1.0.5) (2024-03-27)
+
+### Improvements
+
+- **Package Updates**: Updates to code packages, no user-facing changes.
+
+
+
+
 ##### [Version 1.0.4](https://github.com/Codeinwp/jaxon/compare/v1.0.3...v1.0.4) (2024-03-11)
 
 ### Bug Fixes

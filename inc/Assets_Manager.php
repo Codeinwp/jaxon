@@ -16,9 +16,10 @@ namespace Jaxon;
  */
 class Assets_Manager {
 	const ASSETS_SLUGS = array(
-		'frontend-css'   => 'jaxon-style',
-		'editor-css'     => 'jaxon-editor',
-		'welcome-notice' => 'jaxon-welcome-notice',
+		'frontend-css'       => 'jaxon-style',
+		'editor-css'         => 'jaxon-editor',
+		'welcome-notice'     => 'jaxon-welcome-notice',
+		'design-pack-notice' => 'jaxon-design-pack-notice',
 	);
 
 	/**

@@ -1,3 +1,9 @@
+##### [Version 1.0.6](https://github.com/Codeinwp/jaxon/compare/v1.0.5...v1.0.6) (2024-04-29)
+
+### Improvements
+
+- **Banner**: Adds promo banner for FSE Design Pack
+
 ##### [Version 1.0.5](https://github.com/Codeinwp/jaxon/compare/v1.0.4...v1.0.5) (2024-03-27)
 
 ### Improvements

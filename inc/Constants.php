@@ -16,6 +16,7 @@ namespace Jaxon;
  */
 class Constants {
 	const CACHE_KEYS = array(
-		'dismissed-welcome-notice' => 'jaxon-welcome-notice-dismissed',
+		'dismissed-welcome-notice'         => 'jaxon-welcome-notice-dismissed',
+		'dismissed-fse-design-pack-notice' => 'jaxon-design-pack-dismissed',
 	);
 }

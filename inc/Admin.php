@@ -73,8 +73,6 @@ class Admin {
 			),
 			'designPackNoticeData'
 		);
-
-		echo '<div id="jaxon-design-pack-notice"></div>';
 	}
 
 	/**

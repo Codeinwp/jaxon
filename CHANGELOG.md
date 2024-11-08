@@ -1,3 +1,7 @@
+##### [Version 1.0.8](https://github.com/Codeinwp/jaxon/compare/v1.0.7...v1.0.8) (2024-11-08)
+
+- Updated dependencies
+
 ##### [Version 1.0.7](https://github.com/Codeinwp/jaxon/compare/v1.0.6...v1.0.7) (2024-08-28)
 
 ### Bug Fixes

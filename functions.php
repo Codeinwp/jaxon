@@ -67,7 +67,7 @@ function check_php() {
  * @return void
  */
 function define_constants() {
-	define( 'JAXON_VERSION', '1.0.7' );
+	define( 'JAXON_VERSION', '1.0.8' );
 	define( 'JAXON_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 	define( 'JAXON_DIR', trailingslashit( get_template_directory() ) );
 	define( 'JAXON_URL', trailingslashit( get_template_directory_uri() ) );

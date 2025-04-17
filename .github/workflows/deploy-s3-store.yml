@@ -2,12 +2,12 @@ name: Deploy
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - master
 jobs:
   deploy:
     name: Deploy to server
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@master
       - name: Setup node 14
@@ -24,6 +24,7 @@ jobs:
         uses: Codeinwp/action-wordpress-theme-deploy@v1.0
         env:
           SVN_PASSWORD: ${{ secrets.SVN_THEMEISLE_PASSWORD }}
+          VERSION: "1.0.9"
           SVN_USERNAME: ${{ secrets.SVN_THEMEISLE_USERNAME }}
       - name: Upload Latest Version to S3
         uses: jakejarvis/s3-sync-action@master

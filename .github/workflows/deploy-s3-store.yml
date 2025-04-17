@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@master
       - name: Setup node 14
         uses: actions/setup-node@v1
-        with:
-          node-version: 14.x 
+        with: 
+          node-version: 14.x
       - name: Build & create dist/artifact
         run: |
           yarn install --frozen-lockfile

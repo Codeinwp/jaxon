@@ -71,6 +71,7 @@ function define_constants() {
 	define( 'JAXON_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 	define( 'JAXON_DIR', trailingslashit( get_template_directory() ) );
 	define( 'JAXON_URL', trailingslashit( get_template_directory_uri() ) );
+	define( 'JAXON_PRODUCT_SLUG', basename( JAXON_DIR ) );
 }
 
 /**

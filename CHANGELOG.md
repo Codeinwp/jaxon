@@ -1,3 +1,8 @@
+##### [Version 1.0.9](https://github.com/Codeinwp/jaxon/compare/v1.0.8...v1.0.9) (2025-04-17)
+
+- Updated dependencies
+- Fixed early textdomain loading issue
+
 ##### [Version 1.0.8](https://github.com/Codeinwp/jaxon/compare/v1.0.7...v1.0.8) (2024-11-08)
 
 - Updated dependencies

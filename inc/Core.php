@@ -112,11 +112,11 @@ class Core {
 	/**
 	 * Modify the main query before it is executed.
 	 *
-	 * @param \WP_Query $query The WP_Query instance (passed by reference).
+	 * @param \WP_Query $query The WP_Query instance.
 	 */
-	public function pre_get_posts( $query ) {
+	public function pre_get_posts( \WP_Query $query ) {
 		// Only modify frontend main query.
-		if ( is_admin() || ! $query->is_main_query() ) {
+		if ( is_admin() || ! $query->is_main_query() || $query->is_feed() ) {
 			return;
 		}
 

@@ -55,6 +55,7 @@ class Core {
 		add_action( 'after_setup_theme', array( $this, 'setup' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue' ) );
 		add_action( 'enqueue_block_editor_assets', array( $this, 'add_editor_styles' ) );
+		add_action( 'pre_get_posts', array( $this, 'pre_get_posts' ) );
 	}
 
 	/**
@@ -106,5 +107,21 @@ class Core {
 	 */
 	public function add_editor_styles() {
 		Assets_Manager::enqueue_style( Assets_Manager::ASSETS_SLUGS['editor-css'], 'editor' );
+	}
+
+	/**
+	 * Modify the main query before it is executed.
+	 *
+	 * @param \WP_Query $query The WP_Query instance.
+	 */
+	public function pre_get_posts( \WP_Query $query ) {
+		// Only modify frontend main query.
+		if ( is_admin() || ! $query->is_main_query() || $query->is_feed() ) {
+			return;
+		}
+
+		if ( $query->is_archive() ) {
+			$query->set( 'posts_per_page', 4 );
+		}
 	}
 }

@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codeinwp/themeisle-sdk",
-            "version": "3.3.52",
+            "version": "3.3.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-                "reference": "d1ae68cbd4f84934b4d982e9eeff317b9f4c814a"
+                "reference": "d6807c0b7308e323bd77cced667dee3f2d5e6a82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/d1ae68cbd4f84934b4d982e9eeff317b9f4c814a",
-                "reference": "d1ae68cbd4f84934b4d982e9eeff317b9f4c814a",
+                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/d6807c0b7308e323bd77cced667dee3f2d5e6a82",
+                "reference": "d6807c0b7308e323bd77cced667dee3f2d5e6a82",
                 "shasum": ""
             },
             "require-dev": {
@@ -36,16 +36,16 @@
                     "homepage": "https://themeisle.com"
                 }
             ],
-            "description": "Themeisle SDK.",
+            "description": "Themeisle SDK library.",
             "homepage": "https://github.com/Codeinwp/themeisle-sdk",
             "keywords": [
                 "wordpress"
             ],
             "support": {
                 "issues": "https://github.com/Codeinwp/themeisle-sdk/issues",
-                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.52"
+                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.58"
             },
-            "time": "2026-05-14T19:43:56+00:00"
+            "time": "2026-07-29T08:38:52+00:00"
         }
     ],
     "packages-dev": [

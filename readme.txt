@@ -17,6 +17,14 @@ Jaxon is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
 
+##### [Version 1.0.13](https://github.com/Codeinwp/jaxon/compare/v1.0.12...v1.0.13) (2026-10-19)
+
+- Updated dependencies
+- Added AI agent support: connect your AI assistant and ask it to edit your sites header, footer and style.
+
+
+
+
 ##### [Version 1.0.12](https://github.com/Codeinwp/jaxon/compare/v1.0.11...v1.0.12) (2026-05-15)
 
 - Fixed issue with displaying correct posts on archive pages

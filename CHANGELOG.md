@@ -1,3 +1,8 @@
+##### [Version 1.0.14](https://github.com/Codeinwp/jaxon/compare/v1.0.13...v1.0.14) (2026-11-26)
+
+- Added a Help panel to make it easier to contact support and find answers
+- Updated dependencies
+
 ##### [Version 1.0.13](https://github.com/Codeinwp/jaxon/compare/v1.0.12...v1.0.13) (2026-10-19)
 
 - Updated dependencies

@@ -39,6 +39,7 @@ class Admin {
 		add_action( 'wp_ajax_jaxon_dismiss_design_pack_notice', array( $this, 'remove_design_pack_notice' ) );
 		add_filter( 'themeisle_sdk_blackfriday_data', array( $this, 'add_black_friday_data' ) );
 		add_filter( 'jaxon_ai_connect_metadata', array( $this, 'get_ai_connect_metadata' ) );
+		add_filter( 'jaxon_support_hub_metadata', array( $this, 'get_support_hub_metadata' ) );
 	}
 
 	/**
@@ -385,6 +386,31 @@ class Admin {
 				__( 'List Jaxon\'s style variations and apply the one with the bold typography.', 'jaxon' ),
 				__( 'Move the social icons from my footer to the top bar of my header.', 'jaxon' ),
 				__( 'Add a portfolio grid pattern from Jaxon to my Work page.', 'jaxon' ),
+			),
+		);
+	}
+
+	/**
+	 * Metadata for the Themeisle SDK Support Hub: the footer links shown in the Help form.
+	 *
+	 * Jaxon is a free theme with no Pro tier, so is_pro is always false.
+	 *
+	 * @return array{is_pro: bool, links: array<int, array{icon: string, text: string, url: string}>}
+	 */
+	public function get_support_hub_metadata() {
+		return array(
+			'is_pro' => false,
+			'links'  => array(
+				array(
+					'icon' => 'book-alt',
+					'text' => __( 'Documentation', 'jaxon' ),
+					'url'  => 'https://docs.themeisle.com/fse-themes/jaxon-fse-theme',
+				),
+				array(
+					'icon' => 'groups',
+					'text' => __( 'Community Forum', 'jaxon' ),
+					'url'  => 'https://wordpress.org/support/theme/jaxon/',
+				),
 			),
 		);
 	}
